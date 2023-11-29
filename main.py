@@ -29,17 +29,18 @@ def process_uvl_file(file_path):
 
         tree = parser.featureModel()
         print(tree.toStringTree(recog=parser))
-        return False, False  # No warning, no exception
+        return False, False, ""  # No warning, no exception
     except Exception as e:
-        print(f"Exception in file {file_path}: {e}")  # Print the exception information
-        if "warning" in str(e).lower():
-            return True, False  # Warning
+        error_message = str(e)
+        print(f"Exception in file {file_path}: {error_message}")  # Print the exception information
+        if "warning" in error_message.lower():
+            return True, False, error_message  # Warning with message
         else:
-            return False, True  # Exception
+            return False, True, error_message  # Exception with message
 
 # Main logic
-headers = f'{"Dataset":<15} {"File Name":<30} {"Warning":<10} {"Exception":<10}\n'
-with open("summary.txt", "w") as summary:
+headers = f'{"Dataset":<15} {"File Name":<30} {"Warning":<10} {"Exception":<10} {"Message":<50}\n'  # Añadir encabezado para mensaje
+with open("syntactic_analysis_report.txt", "w") as summary:
     summary.write(headers)
     for i in range(1, 21):
         dir_path = f"dataset/dataset_{i}"
@@ -47,8 +48,8 @@ with open("summary.txt", "w") as summary:
             for file in os.listdir(dir_path):
                 if file.endswith(".uvl"):
                     file_path = os.path.join(dir_path, file)
-                    print(f"Processing file: {file_path}")  # Print the file being processed
-                    warning, exception = process_uvl_file(file_path)
-                    summary.write(f'{f"dataset_{i}":<15} {file:<30} {str(warning):<10} {str(exception):<10}\n')
+                    print(f"Processing file: {file_path}")
+                    warning, exception, message = process_uvl_file(file_path)
+                    summary.write(f'{f"dataset_{i}":<15} {file:<30} {str(warning):<10} {str(exception):<10} {message:<50}\n')
 
-print("Summary generated in 'summary.txt'")
+print("Summary generated in 'syntactic_analysis_report.txt'")
