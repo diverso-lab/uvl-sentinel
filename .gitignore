@@ -1,1 +1,13 @@
 /env
+/python
+/build
+
+uvl/UVLPython.interp
+uvl/UVLPython.tokens
+uvl/UVLPythonLexer.interp
+uvl/UVLPythonLexer.py
+uvl/UVLPythonLexer.tokens
+uvl/UVLPythonListener.py
+uvl/UVLPythonParser.py
+
+uvl/__pycache__/

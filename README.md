@@ -18,8 +18,8 @@ env\Scripts\activate
 source env/bin/activate
 ```
 
-## Install dependencies
+## Install
 
 ```
-pip install -r requirements.txt
+make install
 ```

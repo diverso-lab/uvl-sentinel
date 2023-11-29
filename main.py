@@ -1,7 +1,7 @@
 import os
 import subprocess
 from antlr4 import CommonTokenStream, FileStream
-from uvl.UVLCustomLexer import UVLCustomLexer
+from uvl.UVLPythonLexer import UVLPythonLexer
 from uvl.UVLPythonParser import UVLPythonParser
 from antlr4.error.ErrorListener import ErrorListener
 
@@ -18,7 +18,7 @@ class CustomErrorListener(ErrorListener):
 def process_uvl_file(file_path):
     try:
         input_stream = FileStream(file_path)
-        lexer = UVLCustomLexer(input_stream)
+        lexer = UVLPythonLexer(input_stream)
         lexer.removeErrorListeners()
         lexer.addErrorListener(CustomErrorListener())
 
