@@ -1,13 +1,7 @@
 /env
 /python
 /build
-
-uvl/UVLPython.interp
-uvl/UVLPython.tokens
-uvl/UVLPythonLexer.interp
-uvl/UVLPythonLexer.py
-uvl/UVLPythonLexer.tokens
-uvl/UVLPythonListener.py
-uvl/UVLPythonParser.py
-
 uvl/__pycache__/
+summary.txt
+uvl/.DS_Store
+.DS_Store
