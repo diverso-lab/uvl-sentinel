@@ -2,6 +2,5 @@
 /python
 /build
 uvl/__pycache__/
-syntactic_analysis_report.txt
 uvl/.DS_Store
 .DS_Store
