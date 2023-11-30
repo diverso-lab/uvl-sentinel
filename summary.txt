@@ -1,0 +1,12 @@
+
+Total warnings: 0 (0.00%)
+Total exceptions: 185 (12.51%)
+
+Total UVL files with warnings: 0 (0.00%)
+Total UVL files with exceptions: 185 (12.51%)
+
+Total UVL files with warnings: 0 (0.00%)
+Total UVL files with exceptions: 185 (12.51%)
+
+Total UVL files with warnings: 0 (0.00%)
+Total UVL files with exceptions: 185 (12.51%)

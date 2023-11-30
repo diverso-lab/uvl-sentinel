@@ -23,3 +23,17 @@ source env/bin/activate
 ```
 make install
 ```
+
+## Working with UVL Sentinel
+
+### Generate analysis
+
+```
+python main.py
+```
+
+### Generate summary
+
+```
+python summary.py
+```

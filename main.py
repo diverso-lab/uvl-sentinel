@@ -52,6 +52,6 @@ with open("syntactic_analysis_report.txt", "w") as summary:
                     warning, exception, message = process_uvl_file(file_path)
                     summary.write(f'{f"dataset_{i}":<15} {file:<30} {file_path:<50} {str(warning):<10} {str(exception):<10} {message:<50}\n')
 
-print("Summary generated in 'syntactic_analysis_report.txt'")
+print("Syntactic analysis report generated in 'syntactic_analysis_report.txt'")
 
 
