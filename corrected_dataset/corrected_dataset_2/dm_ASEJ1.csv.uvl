@@ -5,106 +5,106 @@ features
 		or
 			Strands	
 				alternative
-					Strands_7
-					Strands_6
-					Strands_5
-					Strands_4
-					Strands_3
-					Strands_2
-					Strands_31
-					Strands_30
-					Strands_29
-					Strands_28
-					Strands_27
-					Strands_26
-					Strands_25
-					Strands_24
-					Strands_23
-					Strands_22
-					Strands_21
-					Strands_20
-					Strands_19
-					Strands_18
-					Strands_17
-					Strands_16
-					Strands_15
-					Strands_14
-					Strands_13
-					Strands_12
-					Strands_11
-					Strands_10
-					Strands_9
-					Strands_8
-					Strands_100
-					Strands_96
-					Strands_97
-					Strands_98
-					Strands_99
-					Strands_92
-					Strands_93
-					Strands_94
-					Strands_95
-					Strands_88
-					Strands_89
-					Strands_90
-					Strands_91
-					Strands_84
-					Strands_85
-					Strands_86
-					Strands_87
-					Strands_80
-					Strands_81
-					Strands_82
-					Strands_83
-					Strands_76
-					Strands_77
-					Strands_78
-					Strands_79
-					Strands_72
-					Strands_73
-					Strands_74
-					Strands_75
-					Strands_68
-					Strands_69
-					Strands_70
-					Strands_71
-					Strands_64
-					Strands_65
-					Strands_66
-					Strands_67
-					Strands_62
-					Strands_63
-					Strands_60
-					Strands_61
-					Strands_58
-					Strands_59
-					Strands_56
-					Strands_57
-					Strands_54
-					Strands_55
-					Strands_52
-					Strands_53
-					Strands_50
-					Strands_51
-					Strands_48
-					Strands_49
-					Strands_46
-					Strands_47
-					Strands_44
-					Strands_45
-					Strands_42
-					Strands_43
-					Strands_40
-					Strands_41
-					Strands_38
-					Strands_39
-					Strands_36
-					Strands_37
-					Strands_34
-					Strands_35
-					Strands_32
-					Strands_33
-					Strands_1
+					Strands_7_0
+					Strands_6_0
+					Strands_5_0
+					Strands_4_0
+					Strands_3_0
+					Strands_2_0
+					Strands_31_0
+					Strands_30_0
+					Strands_29_0
+					Strands_28_0
+					Strands_27_0
+					Strands_26_0
+					Strands_25_0
+					Strands_24_0
+					Strands_23_0
+					Strands_22_0
+					Strands_21_0
+					Strands_20_0
+					Strands_19_0
+					Strands_18_0
+					Strands_17_0
+					Strands_16_0
+					Strands_15_0
+					Strands_14_0
+					Strands_13_0
+					Strands_12_0
+					Strands_11_0
+					Strands_10_0
+					Strands_9_0
+					Strands_8_0
+					Strands_100_0
+					Strands_96_0
+					Strands_97_0
+					Strands_98_0
+					Strands_99_0
+					Strands_92_0
+					Strands_93_0
+					Strands_94_0
+					Strands_95_0
+					Strands_88_0
+					Strands_89_0
+					Strands_90_0
+					Strands_91_0
+					Strands_84_0
+					Strands_85_0
+					Strands_86_0
+					Strands_87_0
+					Strands_80_0
+					Strands_81_0
+					Strands_82_0
+					Strands_83_0
+					Strands_76_0
+					Strands_77_0
+					Strands_78_0
+					Strands_79_0
+					Strands_72_0
+					Strands_73_0
+					Strands_74_0
+					Strands_75_0
+					Strands_68_0
+					Strands_69_0
+					Strands_70_0
+					Strands_71_0
+					Strands_64_0
+					Strands_65_0
+					Strands_66_0
+					Strands_67_0
+					Strands_62_0
+					Strands_63_0
+					Strands_60_0
+					Strands_61_0
+					Strands_58_0
+					Strands_59_0
+					Strands_56_0
+					Strands_57_0
+					Strands_54_0
+					Strands_55_0
+					Strands_52_0
+					Strands_53_0
+					Strands_50_0
+					Strands_51_0
+					Strands_48_0
+					Strands_49_0
+					Strands_46_0
+					Strands_47_0
+					Strands_44_0
+					Strands_45_0
+					Strands_42_0
+					Strands_43_0
+					Strands_40_0
+					Strands_41_0
+					Strands_38_0
+					Strands_39_0
+					Strands_36_0
+					Strands_37_0
+					Strands_34_0
+					Strands_35_0
+					Strands_32_0
+					Strands_33_0
+					Strands_1_0
 			Modes	
 				or
 					top
@@ -115,99 +115,99 @@ features
 			TopFeeding3D
 
 constraints
-	Strands_7 => !top
-	Strands_6 => !top
-	Strands_5 => !top
-	Strands_31 => !top
-	Strands_30 => !top
-	Strands_29 => !top
-	Strands_28 => !top
-	Strands_27 => !top
-	Strands_26 => !top
-	Strands_25 => !top
-	Strands_24 => !top
-	Strands_23 => !top
-	Strands_22 => !top
-	Strands_21 => !top
-	Strands_20 => !top
-	Strands_19 => !top
-	Strands_18 => !top
-	Strands_17 => !top
-	Strands_16 => !top
-	Strands_15 => !top
-	Strands_14 => !top
-	Strands_13 => !top
-	Strands_12 => !top
-	Strands_11 => !top
-	Strands_10 => !top
-	Strands_9 => !top
-	Strands_8 => !top
-	Strands_100 => !top
-	Strands_96 => !top
-	Strands_97 => !top
-	Strands_98 => !top
-	Strands_99 => !top
-	Strands_92 => !top
-	Strands_93 => !top
-	Strands_94 => !top
-	Strands_95 => !top
-	Strands_88 => !top
-	Strands_89 => !top
-	Strands_90 => !top
-	Strands_91 => !top
-	Strands_84 => !top
-	Strands_85 => !top
-	Strands_86 => !top
-	Strands_87 => !top
-	Strands_80 => !top
-	Strands_81 => !top
-	Strands_82 => !top
-	Strands_83 => !top
-	Strands_76 => !top
-	Strands_77 => !top
-	Strands_78 => !top
-	Strands_79 => !top
-	Strands_72 => !top
-	Strands_73 => !top
-	Strands_74 => !top
-	Strands_75 => !top
-	Strands_68 => !top
-	Strands_69 => !top
-	Strands_70 => !top
-	Strands_71 => !top
-	Strands_64 => !top
-	Strands_65 => !top
-	Strands_66 => !top
-	Strands_67 => !top
-	Strands_62 => !top
-	Strands_63 => !top
-	Strands_60 => !top
-	Strands_61 => !top
-	Strands_58 => !top
-	Strands_59 => !top
-	Strands_56 => !top
-	Strands_57 => !top
-	Strands_54 => !top
-	Strands_55 => !top
-	Strands_52 => !top
-	Strands_53 => !top
-	Strands_50 => !top
-	Strands_51 => !top
-	Strands_48 => !top
-	Strands_49 => !top
-	Strands_46 => !top
-	Strands_47 => !top
-	Strands_44 => !top
-	Strands_45 => !top
-	Strands_42 => !top
-	Strands_43 => !top
-	Strands_40 => !top
-	Strands_41 => !top
-	Strands_38 => !top
-	Strands_39 => !top
-	Strands_36 => !top
-	Strands_37 => !top
-	Strands_34 => !top
-	Strands_35 => !top
-	Strands_32 => !top
-	Strands_33 => !top
+	Strands_7_0 => !top
+	Strands_6_0 => !top
+	Strands_5_0 => !top
+	Strands_31_0 => !top
+	Strands_30_0 => !top
+	Strands_29_0 => !top
+	Strands_28_0 => !top
+	Strands_27_0 => !top
+	Strands_26_0 => !top
+	Strands_25_0 => !top
+	Strands_24_0 => !top
+	Strands_23_0 => !top
+	Strands_22_0 => !top
+	Strands_21_0 => !top
+	Strands_20_0 => !top
+	Strands_19_0 => !top
+	Strands_18_0 => !top
+	Strands_17_0 => !top
+	Strands_16_0 => !top
+	Strands_15_0 => !top
+	Strands_14_0 => !top
+	Strands_13_0 => !top
+	Strands_12_0 => !top
+	Strands_11_0 => !top
+	Strands_10_0 => !top
+	Strands_9_0 => !top
+	Strands_8_0 => !top
+	Strands_100_0 => !top
+	Strands_96_0 => !top
+	Strands_97_0 => !top
+	Strands_98_0 => !top
+	Strands_99_0 => !top
+	Strands_92_0 => !top
+	Strands_93_0 => !top
+	Strands_94_0 => !top
+	Strands_95_0 => !top
+	Strands_88_0 => !top
+	Strands_89_0 => !top
+	Strands_90_0 => !top
+	Strands_91_0 => !top
+	Strands_84_0 => !top
+	Strands_85_0 => !top
+	Strands_86_0 => !top
+	Strands_87_0 => !top
+	Strands_80_0 => !top
+	Strands_81_0 => !top
+	Strands_82_0 => !top
+	Strands_83_0 => !top
+	Strands_76_0 => !top
+	Strands_77_0 => !top
+	Strands_78_0 => !top
+	Strands_79_0 => !top
+	Strands_72_0 => !top
+	Strands_73_0 => !top
+	Strands_74_0 => !top
+	Strands_75_0 => !top
+	Strands_68_0 => !top
+	Strands_69_0 => !top
+	Strands_70_0 => !top
+	Strands_71_0 => !top
+	Strands_64_0 => !top
+	Strands_65_0 => !top
+	Strands_66_0 => !top
+	Strands_67_0 => !top
+	Strands_62_0 => !top
+	Strands_63_0 => !top
+	Strands_60_0 => !top
+	Strands_61_0 => !top
+	Strands_58_0 => !top
+	Strands_59_0 => !top
+	Strands_56_0 => !top
+	Strands_57_0 => !top
+	Strands_54_0 => !top
+	Strands_55_0 => !top
+	Strands_52_0 => !top
+	Strands_53_0 => !top
+	Strands_50_0 => !top
+	Strands_51_0 => !top
+	Strands_48_0 => !top
+	Strands_49_0 => !top
+	Strands_46_0 => !top
+	Strands_47_0 => !top
+	Strands_44_0 => !top
+	Strands_45_0 => !top
+	Strands_42_0 => !top
+	Strands_43_0 => !top
+	Strands_40_0 => !top
+	Strands_41_0 => !top
+	Strands_38_0 => !top
+	Strands_39_0 => !top
+	Strands_36_0 => !top
+	Strands_37_0 => !top
+	Strands_34_0 => !top
+	Strands_35_0 => !top
+	Strands_32_0 => !top
+	Strands_33_0 => !top

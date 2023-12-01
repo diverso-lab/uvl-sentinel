@@ -1,5 +1,6 @@
 import os
 import re
+import time
 from patterns import patterns
 
 # Definition of common errors patterns
@@ -47,10 +48,10 @@ def apply_correction(file_path, error_message):
             corrected_file_path = file_path.replace("dataset", "corrected_dataset")
             with open(corrected_file_path, "w") as corrected_file:
                 corrected_file.write(corrected_content)
-            print(f"Corrections applied to {file_path} and saved as {corrected_file_path}")
+            print(f"Corrections applied to {file_path} and saved as {corrected_file_path}\n")
             return
 
-    print(f"No known pattern found for error in {file_path}: {error_message}")
+    print(f"No known pattern found for error in {file_path}: {error_message}\n")
 
 
 def fix_errors(detected_errors):
@@ -60,7 +61,13 @@ def fix_errors(detected_errors):
 
 # Test
 
+start_time = time.time()
+
 syntactic_analysis_report_file = "syntactic_analysis_report.txt"
 detected_errors = detect_errors_in_syntactic_analysis_report_file(syntactic_analysis_report_file)
 fix_errors(detected_errors)
 
+end_time = time.time()
+
+total_time = end_time - start_time
+print(f"Time spent fixing syntactic errors in the dataset: {total_time:.2f} seconds")

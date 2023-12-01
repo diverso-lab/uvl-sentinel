@@ -1,0 +1,65 @@
+namespace VIRTUAL_ROOT
+
+features
+	VIRTUAL_ROOT {abstract}	
+		or
+			VP1_Type of vehicle {abstract}	
+				alternative
+					V1_Medium-class car
+					V2_Upper-class car
+					V3_Small truck 3,5t
+					V4_Big truck 7,5t
+			VP2_Activation {abstract}	
+				alternative
+					V5_Switchable
+					V6_Durable
+			VP3_Comfort functions {abstract}	
+				optional
+					V7_No stopping warning
+					V8_Overspeed warning
+					V9_Sound at warning signs
+					V10_Hazardous situation alarm
+			VP4_Behaviour at warning signs {abstract}	
+				alternative
+					V11_Show warning sign
+					V12_Display and sound indication
+			VP5_Behaviour at no stopping signs {abstract}	
+				alternative
+					V13_Warn for no stopping sign
+					V14_No warning
+			VP6_Behaviour in hazardous situations {abstract}	
+				optional
+					VP11_Indication  of hazardous situation {abstract}	
+						alternative
+							V15_Show on display
+							V16_Display and sound indication
+					V17_Emergency break
+			VP7_Other signs {abstract}	
+				optional
+					V18_Road w/right of way start
+					V19_City limit
+			VP8_Prohibition signs {abstract}	
+				optional
+					V26_No vehicles
+					V27_No cars
+			VP9_Warning signs {abstract}	
+				optional
+					V34_Danger
+					V35_Side winds
+			VP10_Signs giving orders {abstract}	
+				optional
+					V40_Stop and give way
+					V41_No overtaking
+
+constraints
+	V1_Medium-class car => V26_No vehicles
+	V1_Medium-class car => V27_No cars
+	V1_Medium-class car => V41_No overtaking
+	V4_Big truck 7,5t => V6_Durable
+	V8_Overspeed warning => V19_City limit
+	V9_Sound at warning signs => V12_Display and sound indication
+	V9_Sound at warning signs => V34_Danger
+	V10_Hazardous situation alarm => V17_Emergency break
+	V10_Hazardous situation alarm => V16_Display and sound indication
+	V9_Sound at warning signs => !V11_Show warning sign
+	V7_No stopping warning => !V14_No warning

@@ -1,0 +1,20 @@
+namespace_VIRTUAL_ROOT
+
+features
+	VIRTUAL_ROOT {abstract}	
+		or
+			Messaging	
+				or
+					SMS
+					MMS
+			Utility_Features	
+				optional
+					Calculator
+					Currency_Exchange
+			OS	
+				alternative
+					Symbian
+					WinCE
+
+constraints
+	Currency_Exchange => Calculator
