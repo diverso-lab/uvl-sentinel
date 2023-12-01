@@ -49,15 +49,30 @@ def apply_correction(file_path, error_message):
             with open(corrected_file_path, "w") as corrected_file:
                 corrected_file.write(corrected_content)
             print(f"Corrections applied to {file_path} and saved as {corrected_file_path}\n")
-            return
+            return True
 
     print(f"No known pattern found for error in {file_path}: {error_message}\n")
+    return False
 
 
 def fix_errors(detected_errors):
+    total_files_with_errors = len(detected_errors)
+    corrected_files_count = 0
+
     for error in detected_errors:
         print(f"Error detected in file {error['full_path']}: {error['message']}")
-        apply_correction(error['full_path'], error['message'])
+        if apply_correction(error['full_path'], error['message']):
+            corrected_files_count += 1
+            
+    if total_files_with_errors > 0:
+        corrected_percentage = (corrected_files_count / total_files_with_errors) * 100
+    else:
+        corrected_percentage = 0
+
+    print(f"Total files with errors: {total_files_with_errors}")
+    print(f"Total files corrected: {corrected_files_count}")
+    print(f"Percentage of files corrected: {corrected_percentage:.2f}%")
+
 
 # Test
 
