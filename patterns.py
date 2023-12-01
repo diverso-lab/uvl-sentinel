@@ -24,11 +24,29 @@ patterns = {
         "replacement": "_"  
     },
 
+    # Replace '/' with '_'
+    r"mismatched input '/' expecting": {
+        "regex_solution": r"/",
+        "replacement": "_" 
+    },
+
+    # Replace '-' with '_'
+    r"mismatched input '-' expecting": {
+        "regex_solution": r"-",
+        "replacement": "_" 
+    },
+
     # Replace blank space by underscore in feature names
     r"extraneous input '(\w+)' expecting": {
         "regex_solution": r"(\b\w+\b) (\b\w+\b)",
         "replacement": r"\1_\2"
     },
 
-    # Add more patterns
+    # # Delete lines containing only blanks
+    r"extraneous input '[ ]+' expecting": {
+        "regex_solution": r"^[ ]+$\n?",
+        "replacement": ""
+    },
+
+    # Add more patterns...
 }

@@ -16,7 +16,7 @@ python -m venv env
 env\Scripts\activate
 ```
 
-### Activate (Linux)
+### Activate (Linux/Mac)
 
 ```
 source env/bin/activate
